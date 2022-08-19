@@ -53,7 +53,10 @@ const generateMarkdown = ({ github, email, title, description, license, installa
 {
   return `# ${title} ![license](${renderLicenseBadge(license)})
 ## ${description}
-  
+
+
+## Table of Contents
+
 1. [Installation](#installation)
 2. [Usage](#usage)
 3. [License](#license)
@@ -61,8 +64,10 @@ const generateMarkdown = ({ github, email, title, description, license, installa
 5. [Tests](#tests)
 6. [Questions](#questions)
 
+
 ## Installation
 ${installation}
+
 
 ## Usage
 ${usage}
@@ -73,12 +78,16 @@ ${renderLicenseSection(license)}
 
 
 ## Contributing
+${contributing}
 
 
 ## Tests
+${tests}
 
 
 ## Questions
+${github}
+${email}
   `
 
 }
