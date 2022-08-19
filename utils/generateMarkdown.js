@@ -4,11 +4,11 @@ function renderLicenseBadge(license) {
   let badge = license.replace(/\s/g,"%20")
   if (license === "MIT") {
     return `https://img.shields.io/badge/license-${badge}-blue`
-  } else if (license === "APACHE 2.0"){
+  } else if (license === "APACHE 2.0") {
     return `https://img.shields.io/badge/license-${badge}-blue`
-  } else if (license === "GPL 3.0"){
+  } else if (license === "GPL 3.0") {
     return `https://img.shields.io/badge/license-${badge}-blue`
-  } else if (license === "BSD 3"){
+  } else if (license === "BSD 3") {
     return `https://img.shields.io/badge/license-${badge}-blue`
   } else if (license === "None") {
     return ""
@@ -17,18 +17,27 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {
+// function renderLicenseLink(license) {
 
-}
+// }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  if (license === "MIT"){
+  if (license === "MIT") {
     return "MIT description"
-
+  } else if (license === "APACHE 2.0") {
+    return "APACHE 2.0 description"
+  } else if (license === "GPL 3.0") {
+    return "GPL 3.0 description"
+  } else if (license === "BSD 3") {
+    return "BSD 3 description"
+  } else if (license === "None") {
+    return ""
   }
-}
+
+};
+
 
 // TODO: Create a function to generate markdown for README
 // function generateMarkdown(data) {
@@ -59,8 +68,17 @@ ${installation}
 ${usage}
 
 
-## license 
+## License 
 ${renderLicenseSection(license)}
+
+
+## Contributing
+
+
+## Tests
+
+
+## Questions
   `
 
 }
