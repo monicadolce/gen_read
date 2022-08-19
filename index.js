@@ -2,12 +2,42 @@
 
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
 
 // const questions = [];
 
-inquirer
+
+
+    // Folder 20
+    // .then((data) => {
+    //     const filename = `${data.name.toLowerCase().split(' ').join('')}.json`;
+    
+    //     fs.writeFile(filename, JSON.stringify(data, null, '\t'), (err) =>
+    //       err ? console.log(err) : console.log('Success!')
+    //     );
+    //   });
+    
+    // First attempt/miniproject
+    // function writeToFile(fileName, data) { 
+    //     fs.writeToFile(fileName, data, (err) => 
+    //     err ? console.log(err) : console.log('Successfully created README!')
+    //     );
+    // };
+    // writeToFile();
+
+    // Second attempt/miniproject
+  
+
+    // generateMarkdown();
+    
+// TODO: Create a function to write README file
+function writeToFile(fileName, data) {}
+
+// TODO: Create a function to initialize app
+function init() {
+    inquirer
     .prompt([
         {
             type: 'input',
@@ -56,28 +86,13 @@ inquirer
             message: 'What does the user need to know about contributing to the repo?',
         },
     ])  
-
-    // Folder 20
-    // .then((data) => {
-    //     const filename = `${data.name.toLowerCase().split(' ').join('')}.json`;
-    
-    //     fs.writeFile(filename, JSON.stringify(data, null, '\t'), (err) =>
-    //       err ? console.log(err) : console.log('Success!')
-    //     );
-    //   });
-    
-    // First attempt/miniproject
-    // function writeToFile(fileName, data) { 
-    //     fs.writeToFile(fileName, data, (err) => 
-    //     err ? console.log(err) : console.log('Successfully created README!')
-    //     );
-    // };
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
-function init() {}
+      .then((answers) => {
+        const markdownPageContent = generateMarkdown(answers);
+        fs.writeFile('output/README.md', markdownPageContent, (err) =>
+        err ? console.log(err) : ('Created README.md')
+        );
+    });
+}
 
 // Function call to initialize app
 init();
