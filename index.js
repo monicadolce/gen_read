@@ -42,7 +42,7 @@ function init() {
         {
             type: 'input',
             name: 'github',
-            message: 'What is your GitHub username (link to GitHub profile)?',
+            message: 'What is your GitHub username?',
         },
         {
             type: 'input',

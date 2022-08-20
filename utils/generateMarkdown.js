@@ -87,10 +87,9 @@ ${tests}
 
 ## Questions
 Please contact me at ${email} with any questions.  
-${github}  
+GitHub username: ${github}  
 Check out my [GitHub Profile](https://github.com/monicadolce)
-
-  `
+ `
 
 }
 
