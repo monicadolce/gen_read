@@ -1,5 +1,5 @@
-# w ![license](https://img.shields.io/badge/license-MIT-blue)
-## df
+# Awesome ![license](https://img.shields.io/badge/license-BSD%203-blue)
+## wr
 
 
 ## Table of Contents
@@ -13,27 +13,27 @@
 
 
 ## Installation
-s
+wf
 
 
 ## Usage
-d
+we
 
 
 ## License 
-MIT description
+BSD 3 description
 
 
 ## Contributing
-d
+ew
 
 
 ## Tests
-d
+wr
 
 
 ## Questions
-Please contact me at wfd with any questions.  
+Please contact me at monica@gmail.com with any questions.  
 GitHub username: monicadolce  
 Check out my [GitHub Profile](https://github.com/monicadolce)
  
