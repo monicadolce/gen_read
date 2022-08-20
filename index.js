@@ -1,43 +1,13 @@
-// TODO: Include packages needed for this application
-
+// Packages needed for this application
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 
-// TODO: Create an array of questions for user input
 
-// const questions = [];
-
-
-
-    // Folder 20
-    // .then((data) => {
-    //     const filename = `${data.name.toLowerCase().split(' ').join('')}.json`;
-    
-    //     fs.writeFile(filename, JSON.stringify(data, null, '\t'), (err) =>
-    //       err ? console.log(err) : console.log('Success!')
-    //     );
-    //   });
-    
-    // First attempt/miniproject
-    // function writeToFile(fileName, data) { 
-    //     fs.writeToFile(fileName, data, (err) => 
-    //     err ? console.log(err) : console.log('Successfully created README!')
-    //     );
-    // };
-    // writeToFile();
-
-    // Second attempt/miniproject
-  
-
-    // generateMarkdown();
-    
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
+// Function initializes app using inquirer
 function init() {
     inquirer
+// Array of question prompts for user to answer and one list of licenses to choose from
     .prompt([
         {
             type: 'input',
@@ -86,6 +56,7 @@ function init() {
             message: 'What does the user need to know about contributing to the repo?',
         },
     ])  
+// Answers are written to README.md with arrow function and message is rendered with console.log
       .then((answers) => {
         const markdownPageContent = generateMarkdown(answers);
         fs.writeFile('output/README.md', markdownPageContent, (err) =>
@@ -96,3 +67,4 @@ function init() {
 
 // Function call to initialize app
 init();
+

@@ -1,5 +1,5 @@
-# Puppies ![license](https://img.shields.io/badge/license-MIT-blue)
-## sdf
+# Puppy ![license](https://img.shields.io/badge/license-GPL%203.0-blue)
+### fdgsgdfgsfgfhndhjghjdghadfgsdsdfg
 
 
 ## Table of Contents
@@ -13,23 +13,23 @@
 
 
 ## Installation
-dsf
+sdfgsggdfgd
 
 
 ## Usage
-sfd
+sre
 
 
 ## License 
-MIT description
+GPL 3.0 description
 
 
 ## Contributing
-ds
+safgh
 
 
 ## Tests
-dsf
+fdght
 
 
 ## Questions
