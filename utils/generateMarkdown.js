@@ -86,8 +86,8 @@ ${tests}
 
 
 ## Questions
-Please contact me at ${email} with any questions.
-${github}
+Please contact me at ${email} with any questions.  
+${github}  
 Check out my [GitHub Profile](https://github.com/monicadolce)
 
   `
