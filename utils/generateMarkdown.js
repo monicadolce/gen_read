@@ -36,8 +36,8 @@ function renderLicenseSection(license) {
 // Function generates markdown for README
 const generateMarkdown = ({ github, email, title, description, license, installation, tests, usage, contributing }) => {
   return `# ${title} ![license](${renderLicenseBadge(license)})
-### ${description}
-
+## Description
+ ${description}  
 
 
 ## Table of Contents

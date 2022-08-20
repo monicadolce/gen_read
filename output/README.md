@@ -1,5 +1,6 @@
-# Puppy ![license](https://img.shields.io/badge/license-GPL%203.0-blue)
-### fdgsgdfgsfgfhndhjghjdghadfgsdsdfg
+# Super Pups ![license](https://img.shields.io/badge/license-BSD%203-blue)
+## Description
+ I am a project that generates readme  
 
 
 ## Table of Contents
@@ -13,23 +14,23 @@
 
 
 ## Installation
-sdfgsggdfgd
+init
 
 
 ## Usage
-sre
+sdfdsgdfg
 
 
 ## License 
-GPL 3.0 description
+BSD 3 description
 
 
 ## Contributing
-safgh
+fsdfgfgd
 
 
 ## Tests
-fdght
+testing
 
 
 ## Questions
