@@ -1,5 +1,5 @@
-# Awesome ![license](https://img.shields.io/badge/license-BSD%203-blue)
-## wr
+# Puppies ![license](https://img.shields.io/badge/license-MIT-blue)
+## sdf
 
 
 ## Table of Contents
@@ -13,23 +13,23 @@
 
 
 ## Installation
-wf
+dsf
 
 
 ## Usage
-we
+sfd
 
 
 ## License 
-BSD 3 description
+MIT description
 
 
 ## Contributing
-ew
+ds
 
 
 ## Tests
-wr
+dsf
 
 
 ## Questions

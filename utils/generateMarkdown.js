@@ -1,7 +1,7 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  let badge = license.replace(/\s/g,"%20")
+  let badge = license.replace(/\s/g, "%20")
   if (license === "MIT") {
     return `https://img.shields.io/badge/license-${badge}-blue`
   } else if (license === "APACHE 2.0") {
@@ -12,7 +12,7 @@ function renderLicenseBadge(license) {
     return `https://img.shields.io/badge/license-${badge}-blue`
   } else if (license === "None") {
     return ""
-}
+  }
 };
 
 // TODO: Create a function that returns the license section of README
@@ -34,8 +34,7 @@ function renderLicenseSection(license) {
 
 
 // TODO: Create a function to generate markdown for README
-const generateMarkdown = ({ github, email, title, description, license, installation, tests, usage, contributing }) =>
-{
+const generateMarkdown = ({ github, email, title, description, license, installation, tests, usage, contributing }) => {
   return `# ${title} ![license](${renderLicenseBadge(license)})
 ## ${description}
 
@@ -78,4 +77,4 @@ Check out my [GitHub Profile](https://github.com/monicadolce)
 
 }
 
- module.exports = generateMarkdown;
+module.exports = generateMarkdown;

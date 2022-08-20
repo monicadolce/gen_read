@@ -89,7 +89,7 @@ function init() {
       .then((answers) => {
         const markdownPageContent = generateMarkdown(answers);
         fs.writeFile('output/README.md', markdownPageContent, (err) =>
-        err ? console.log(err) : ('Created README.md')
+        err ? console.log(err) : console.log('Successfully created README.md')
         );
     });
 }
