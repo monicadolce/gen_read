@@ -1,4 +1,4 @@
-# Awesome ![license]()
+# Awesome ![license](https://img.shields.io/badge/license-APACHE%202.0-blue)
 ## This application generates a professional README
 
 
@@ -21,7 +21,7 @@ It is an amazing repo
 
 
 ## License 
-
+APACHE 2.0 description
 
 
 ## Contributing
@@ -33,7 +33,7 @@ testing
 
 
 ## Questions
-<https://github.com/monicadolce>
+Check out my [GitHub Profile](https://github.com/monicadolce)
 monicadolce
 monica@gmail.com
   

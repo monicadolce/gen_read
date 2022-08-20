@@ -86,7 +86,7 @@ ${tests}
 
 
 ## Questions
-<https://github.com/monicadolce>
+Check out my [GitHub Profile](https://github.com/monicadolce)
 ${github}
 ${email}
   `
