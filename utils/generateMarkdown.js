@@ -86,9 +86,10 @@ ${tests}
 
 
 ## Questions
-Check out my [GitHub Profile](https://github.com/monicadolce)
+Please contact me at ${email} with any questions.
 ${github}
-${email}
+Check out my [GitHub Profile](https://github.com/monicadolce)
+
   `
 
 }
