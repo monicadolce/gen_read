@@ -1,6 +1,6 @@
-# Super Pups ![license](https://img.shields.io/badge/license-BSD%203-blue)
+# puppy ![license]()
 ## Description
- I am a project that generates readme  
+ puppies are awesome  
 
 
 ## Table of Contents
@@ -14,19 +14,19 @@
 
 
 ## Installation
-init
+install
 
 
 ## Usage
-sdfdsgdfg
+test
 
 
 ## License 
-BSD 3 description
+
 
 
 ## Contributing
-fsdfgfgd
+test
 
 
 ## Tests
