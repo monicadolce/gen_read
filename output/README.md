@@ -1,6 +1,6 @@
-# README generator ![license](https://img.shields.io/badge/license-MIT-blue)
+# README Generator ![license](https://img.shields.io/badge/license-APACHE%202.0-blue)
 ## Description
- This application creates a README file  
+ This application creates a professional README.md  
 
 
 ## Table of Contents
@@ -14,23 +14,23 @@
 
 
 ## Installation
-install
+npm i inquirer
 
 
 ## Usage
-It is a fantastic application
+It may be used as a reference
 
 
 ## License 
-https://opensource.org/licenses/MIT
+https://opensource.org/licenses/Apache-2.0
 
 
 ## Contributing
-You can contribute
+Anyone can contribute
 
 
 ## Tests
-test
+node index.js
 
 
 ## Questions
