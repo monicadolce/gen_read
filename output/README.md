@@ -1,6 +1,6 @@
-# puppy ![license]()
+# README generator ![license](https://img.shields.io/badge/license-MIT-blue)
 ## Description
- puppies are awesome  
+ This application creates a README file  
 
 
 ## Table of Contents
@@ -18,19 +18,19 @@ install
 
 
 ## Usage
-test
+It is a fantastic application
 
 
 ## License 
-
+https://opensource.org/licenses/MIT
 
 
 ## Contributing
-test
+You can contribute
 
 
 ## Tests
-testing
+test
 
 
 ## Questions
