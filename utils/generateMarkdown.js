@@ -3,13 +3,13 @@
 function renderLicenseBadge(license) {
   let badge = license.replace(/\s/g, "%20")
   if (license === "MIT") {
-    return `https://img.shields.io/badge/license-${badge}-blue`
+    return `![license](https://img.shields.io/badge/license-${badge}-blue)`
   } else if (license === "APACHE 2.0") {
-    return `https://img.shields.io/badge/license-${badge}-blue`
+    return `![license](https://img.shields.io/badge/license-${badge}-blue)`
   } else if (license === "GPL 3.0") {
-    return `https://img.shields.io/badge/license-${badge}-blue`
+    return `![license](https://img.shields.io/badge/license-${badge}-blue)`
   } else if (license === "BSD 3") {
-    return `https://img.shields.io/badge/license-${badge}-blue`
+    return `![license](https://img.shields.io/badge/license-${badge}-blue)`
   } else if (license === "None") {
     return "";
   }
@@ -27,7 +27,7 @@ function renderLicenseSection(license) {
   } else if (license === "BSD 3") {
     return `https://opensource.org/licenses/BSD-3-Clause`
   } else if (license === "None") {
-    return "";
+    return "No license selected";
   }
 
 };
@@ -35,7 +35,8 @@ function renderLicenseSection(license) {
 
 // Function generates markdown for README 
 const generateMarkdown = ({ github, email, title, description, license, installation, tests, usage, contributing }) => {
-  return `# ${title} ![license](${renderLicenseBadge(license)})
+  return `# ${title} ${renderLicenseBadge(license)}
+
 ## Description
  ${description}  
 
